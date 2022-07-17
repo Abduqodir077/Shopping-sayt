@@ -15,6 +15,7 @@ body{
     max-width: 1920px;
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
 
 /* === header nav1 ================================ */
@@ -288,10 +289,34 @@ font-size: 12px;
 line-height: 15px;
 display: flex;
 align-items: center;
-
 color: #FFFFFF;
-
 }
+
+/* local page start */
+/* 
+.local_page {
+    width: 300px;
+    height: 800px;
+    right: 0;
+    transform: translateX(480px);
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.607);
+    transition: all 1s;
+    padding: 20px;
+} */
+
+
+/* local page end */
+
+/* .local_page .ili {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    text-align: end;
+    cursor: pointer;
+} */
+
 /* ============ nav 2 ================================= */
 
 /* ============ section 1 =============================== */
@@ -441,7 +466,7 @@ button{cursor: pointer;}
     justify-content: center;
     flex-direction: column;
     background: white;
-    
+    overflow: hidden;
 }
 
 
