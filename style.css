@@ -192,8 +192,8 @@ nav{
     height: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    vertical-align: middle;
+    justify-content: space-between;
+    /* vertical-align: middle; */
     border-top-style: solid;
     border-top-color: gray;
     border-bottom-color: gray;
@@ -202,13 +202,24 @@ nav{
     border-left-style: none;
     
 }
+
+.nav2_left{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+}
+
 .nav2_logo{
     width: 177px;
-    height: 80px;
+    height: 50px;
+    background-color: #F7F7F7;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    padding: 0 12px;
+    margin-right: 45px;
 }
 
 .nav2_logo p{
@@ -219,46 +230,68 @@ display: flex;
 align-items: center;
 
 color: #2A2A2A;
-
-
 }
 
-.nav2_paragraf{
+.nav2_a{
+    width: 377px;
+    height: 14px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 377px;
-height: 14px;
-
 }
 
-.nav2_paragraf p{
+.nav2_a a{
     font-weight: 500;
 font-size: 16px;
 line-height: 19px;
 display: flex;
 align-items: center;
-
+text-transform: uppercase;
+text-decoration: none;
 color: #2A2A2A;
-transition: all 777ms;
+}   
 
-
-
+.nav2_a a:hover{
+    color: #7FAD39;
 }
 
-.nav2_paragraf p:hover{
+.nav2_right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav2_box{
+    width: 125px;
+    height: 50px;
+    background-color: #7FAD39;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.nav2_box form{
+    display: flex;
+}
+
+.nav2_box select{
+    background-color: #7FAD39;
+    border: none;
+    color: white;
+}
+
+.nav2_box option{
     font-weight: 800;
-font-size: 16px;
-line-height: 19px;
+font-size: 12px;
+line-height: 15px;
 display: flex;
 align-items: center;
 
-color: #7FAD39;
-
+color: #FFFFFF;
 
 }
-
-
 /* ============ nav 2 ================================= */
 
 /* ============ section 1 =============================== */
@@ -407,7 +440,7 @@ button{cursor: pointer;}
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: #E5E5E5;
+    background: white;
     
 }
 
