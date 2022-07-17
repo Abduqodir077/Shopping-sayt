@@ -20,6 +20,7 @@ body{
 /* === header nav1 ================================ */
 
 header{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -193,6 +194,12 @@ nav{
     align-items: center;
     justify-content: space-around;
     vertical-align: middle;
+    border-top-style: solid;
+    border-top-color: gray;
+    border-bottom-color: gray;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
     
 }
 .nav2_logo{
@@ -204,7 +211,7 @@ nav{
 
 }
 
-nav2_logo p{
+.nav2_logo p{
     font-weight: 800;
 font-size: 12px;
 line-height: 15px;
@@ -251,12 +258,14 @@ color: #7FAD39;
 
 }
 
+
 /* ============ nav 2 ================================= */
 
 /* ============ section 1 =============================== */
 
 
 .section_1 {
+    padding-top: 40px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -386,6 +395,329 @@ button{
 
 
 /* ============ section 1 =============================== */
+
+/* sec 2- 3 =================================== */
+
+button{cursor: pointer;}
+.wrapper{
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #E5E5E5;
+    
+}
+
+
+/* ======= sec_2 ======== */
+
+.section2{
+    padding-top: 66px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.otaDiv{
+    width: 1199px;
+    height: 207px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+    flex-direction: column;
+}
+.sec2_top{
+    width: 184px;
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 16px;
+}
+.sec2_top p{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+
+    display: flex;
+    align-items: center;
+
+    color: #7FAD39;
+}
+.sec2_top span{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+
+    display: flex;
+    align-items: center;
+
+    color: rgb(10, 10, 10);
+}
+
+.sec2_but{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    
+    flex-direction: row;
+    
+}
+.maxsulotlar{
+    width: 178px;
+    height: 127px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(42, 42, 42, 0.15);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 6px;
+    position: relative;
+}
+.maxsulotlar a{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #2A2A2A;
+}
+.slayt{
+    position: absolute;
+    margin: 45px 0 0 0;
+    z-index: 1;
+}
+.slayt button{
+    border: none;
+    background: none;
+}
+.slayd{
+    position: absolute;
+    padding: 45px 0 0 1170px;
+    z-index: 1;
+    display: flex;
+    
+}
+.slayd button{
+    border: none;
+    background: none;
+}
+
+
+
+/* ======== sec_3 ========== */
+
+
+
+
+.section3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.otaKantenr{
+    width: 1199px;
+    height: 415px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.sec3_top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 16px;
+}
+
+.sec3_top p{
+    font-weight: 800;
+font-size: 14px;
+line-height: 30px;
+/* or 214% */
+
+display: flex;
+align-items: center;
+
+color: #7FAD39;
+}
+.sec3_top span{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+
+    display: flex;
+    align-items: center;
+
+    color: black;
+}
+.sec3_but{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 15px;
+}
+.persi{
+    width: 226px;
+    height: 335px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(42, 42, 42, 0.15);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.chegrma{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.chegrma p{
+    background: #7FAD39;
+    padding: 3px 5px;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 30px;
+    /* or 250% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.chegrma button{
+    background: none;
+    border: none;
+}
+.text{
+    width: 174px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text p{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    /* or 183% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #A9A9A9;
+}
+.text span{
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 183% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #2A2A2A;
+}
+.pi2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.pi2 p{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #7FAD39;
+}
+.pi2 span{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 138% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #A9A9A9;
+}
+
+.impt input{
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: none;
+    text-align: center;
+    
+}
+.impt button{
+    width: 25px;
+    height: 25px;
+    background: #2A2A2A;
+    color: white;
+    border: 1.5px solid #FFFFFF;
+}
+.impt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    justify-content: space-between;
+}
+#plus{
+    margin-right: 75px;
+}
+#karzinkab{
+    background: none;
+}
+
+/* sec 2- 3 =================================== */
 
 /* === section 3 ================================== */
 
@@ -692,6 +1024,7 @@ border: 2px dashed #FFFFFF;
 
 
 footer{
+    margin-top: 200px;
     width: 100%;
     height: 557px;
     background-color: #191919;
