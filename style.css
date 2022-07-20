@@ -273,6 +273,32 @@ color: #2A2A2A;
     padding: 0 10px;
 }
 
+/* ================= */
+
+.ili {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    text-align: end;
+    cursor: pointer;
+}
+
+/* local page start */
+
+.local_page {
+    width: 300px;
+    height: 800px;
+    right: 0;
+    transform: translateX(480px);
+    position: absolute;
+    background-color: blue;
+    transition: all 1s;
+    padding: 20px;
+}
+
+/* ================= */
+
 .nav2_box form{
     display: flex;
 }
@@ -291,36 +317,6 @@ display: flex;
 align-items: center;
 color: #FFFFFF;
 }
-
-/* local page start */
-/* 
-.local_page {
-    width: 300px;
-    height: 800px;
-    right: 0;
-    transform: translateX(480px);
-    position: absolute;
-    background-color: rgba(0, 0, 255, 0.607);
-    transition: all 1s;
-    padding: 20px;
-} */
-
-
-/* local page end */
-
-/* .local_page .ili {
-    display: block;
-    font-size: 50px;
-    font-weight: bold;
-    color: red;
-    text-align: end;
-    cursor: pointer;
-} */
-
-/* ============ nav 2 ================================= */
-
-/* ============ section 1 =============================== */
-
 
 .section_1 {
     padding-top: 40px;
@@ -584,8 +580,6 @@ button{cursor: pointer;}
 /* ======== sec_3 ========== */
 
 
-
-
 .section3{
     width: 100%;
     height: auto;
@@ -778,6 +772,26 @@ color: #7FAD39;
 /* sec 2- 3 =================================== */
 
 /* === section 3 ================================== */
+
+.local_page{
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+    position: absolute;
+    transform: translateX(300px);
+    right: 0;
+    transition: all 1.2s ease-in;
+    padding: 20px;
+    top: 63px;
+}
+
+
+#h1{
+    font-size: 40px;
+    display: block;
+    text-align: end;
+    cursor:-webkit-grabbing;
+}
 
 .section3{
     width: 100%;
